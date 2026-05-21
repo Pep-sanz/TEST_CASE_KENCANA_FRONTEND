@@ -1,0 +1,81 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 80px 20px;
+
+  background: var(--background);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+
+  margin-bottom: 32px;
+
+  color: var(--primary-dark);
+}
+
+.articleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: var(--surface);
+
+  padding: 24px;
+  border-radius: 18px;
+
+  border: 1px solid var(--border-color);
+
+  box-shadow: var(--shadow-sm);
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.badge {
+  width: fit-content;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  background: var(--gradient-primary);
+  color: white;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.articleTitle {
+  font-size: 20px;
+  font-weight: 700;
+
+  color: var(--primary-dark);
+
+  text-transform: capitalize;
+
+  line-height: 1.4;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: var(--text-secondary);
+}

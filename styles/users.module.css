@@ -1,0 +1,98 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+
+  background: var(--background);
+
+  margin-top: 4.5rem;
+  padding: 48px 64px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+
+  color: var(--primary-dark);
+
+  margin-bottom: 30px;
+}
+
+.userGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+
+  padding: 20px 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  box-shadow: var(--shadow-sm);
+
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.photo {
+  width: 72px;
+  height: 72px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid var(--primary-light);
+
+  flex-shrink: 0;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.userInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+
+  color: var(--primary-dark);
+}
+
+.username {
+  font-size: 14px;
+
+  color: var(--text-muted);
+}
+
+.email {
+  font-size: 14px;
+  color: var(--text-secondary);
+
+  word-break: break-word;
+}

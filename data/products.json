@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "slug": "wireless-noise-cancelling-headphones",
+    "category": "Electronics",
+    "brand": "SoundCore",
+    "price": 899000,
+    "discount": 10,
+    "stock": 42,
+    "rating": 4.7,
+    "reviews": 128,
+    "description": "Headphone nirkabel premium dengan teknologi active noise cancelling, baterai 30 jam, dan suara Hi-Fi berkualitas studio.",
+    "images": [
+      "https://picsum.photos/seed/headphone1/400/400",
+      "https://picsum.photos/seed/headphone2/400/400"
+    ],
+    "tags": ["wireless", "audio", "noise-cancelling"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard",
+    "category": "Electronics",
+    "brand": "KeyMaster",
+    "price": 650000,
+    "discount": 0,
+    "stock": 18,
+    "rating": 4.5,
+    "reviews": 87,
+    "description": "Keyboard mekanikal RGB dengan switch blue, anti-ghosting 104 keys, cocok untuk gaming dan produktivitas.",
+    "images": [
+      "https://picsum.photos/seed/keyboard1/400/400",
+      "https://picsum.photos/seed/keyboard2/400/400"
+    ],
+    "tags": ["gaming", "keyboard", "mechanical"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 3,
+    "name": "Ergonomic Office Chair",
+    "slug": "ergonomic-office-chair",
+    "category": "Furniture",
+    "brand": "ComfortPro",
+    "price": 2350000,
+    "discount": 15,
+    "stock": 9,
+    "rating": 4.8,
+    "reviews": 204,
+    "description": "Kursi kantor ergonomis dengan sandaran lumbar adjustable, armrest 4D, dan material mesh breathable untuk kerja seharian.",
+    "images": [
+      "https://picsum.photos/seed/chair1/400/400",
+      "https://picsum.photos/seed/chair2/400/400"
+    ],
+    "tags": ["furniture", "ergonomic", "office"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 4,
+    "name": "Stainless Steel Water Bottle",
+    "slug": "stainless-steel-water-bottle",
+    "category": "Lifestyle",
+    "brand": "HydroLife",
+    "price": 175000,
+    "discount": 5,
+    "stock": 130,
+    "rating": 4.6,
+    "reviews": 312,
+    "description": "Botol minum stainless steel 750ml dengan double wall insulation, menjaga minuman dingin 24 jam atau panas 12 jam.",
+    "images": [
+      "https://picsum.photos/seed/bottle1/400/400",
+      "https://picsum.photos/seed/bottle2/400/400"
+    ],
+    "tags": ["lifestyle", "hydration", "eco-friendly"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch Fitness Tracker",
+    "slug": "smartwatch-fitness-tracker",
+    "category": "Electronics",
+    "brand": "FitTech",
+    "price": 1250000,
+    "discount": 20,
+    "stock": 55,
+    "rating": 4.4,
+    "reviews": 176,
+    "description": "Smartwatch dengan monitor detak jantung, SpO2, GPS, tahan air 50m, dan baterai 7 hari. Kompatibel Android & iOS.",
+    "images": [
+      "https://picsum.photos/seed/watch1/400/400",
+      "https://picsum.photos/seed/watch2/400/400"
+    ],
+    "tags": ["wearable", "fitness", "smartwatch"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 6,
+    "name": "Portable Bluetooth Speaker",
+    "slug": "portable-bluetooth-speaker",
+    "category": "Electronics",
+    "brand": "SoundCore",
+    "price": 420000,
+    "discount": 0,
+    "stock": 73,
+    "rating": 4.3,
+    "reviews": 95,
+    "description": "Speaker bluetooth portabel tahan air IPX7, suara 360 derajat, baterai 20 jam, dan desain compact untuk outdoor.",
+    "images": [
+      "https://picsum.photos/seed/speaker1/400/400",
+      "https://picsum.photos/seed/speaker2/400/400"
+    ],
+    "tags": ["audio", "bluetooth", "outdoor"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 7,
+    "name": "Minimalist Leather Wallet",
+    "slug": "minimalist-leather-wallet",
+    "category": "Fashion",
+    "brand": "LeatherCraft",
+    "price": 280000,
+    "discount": 0,
+    "stock": 60,
+    "rating": 4.6,
+    "reviews": 143,
+    "description": "Dompet kulit asli minimalis dengan slot kartu 6 buah, RFID blocking, dan desain slim tipis hanya 8mm.",
+    "images": [
+      "https://picsum.photos/seed/wallet1/400/400",
+      "https://picsum.photos/seed/wallet2/400/400"
+    ],
+    "tags": ["fashion", "leather", "minimalist"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 8,
+    "name": "LED Desk Lamp with Wireless Charger",
+    "slug": "led-desk-lamp-wireless-charger",
+    "category": "Electronics",
+    "brand": "LumiDesk",
+    "price": 390000,
+    "discount": 10,
+    "stock": 34,
+    "rating": 4.5,
+    "reviews": 68,
+    "description": "Lampu meja LED dengan 5 mode warna, 10 level kecerahan, dan wireless charger 15W terintegrasi di bagian alas.",
+    "images": [
+      "https://picsum.photos/seed/lamp1/400/400",
+      "https://picsum.photos/seed/lamp2/400/400"
+    ],
+    "tags": ["lighting", "wireless-charging", "desk"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 9,
+    "name": "Yoga Mat Premium",
+    "slug": "yoga-mat-premium",
+    "category": "Sports",
+    "brand": "ZenFit",
+    "price": 320000,
+    "discount": 0,
+    "stock": 88,
+    "rating": 4.7,
+    "reviews": 221,
+    "description": "Matras yoga premium 6mm berbahan TPE ramah lingkungan, anti-slip double layer, ukuran 183x61cm dengan strap bawaan.",
+    "images": [
+      "https://picsum.photos/seed/yoga1/400/400",
+      "https://picsum.photos/seed/yoga2/400/400"
+    ],
+    "tags": ["sports", "yoga", "fitness"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 10,
+    "name": "Cold Brew Coffee Maker",
+    "slug": "cold-brew-coffee-maker",
+    "category": "Kitchen",
+    "brand": "BrewMaster",
+    "price": 210000,
+    "discount": 0,
+    "stock": 47,
+    "rating": 4.4,
+    "reviews": 109,
+    "description": "Alat pembuat cold brew coffee kapasitas 1 liter dengan filter stainless mesh halus, BPA-free, mudah dibersihkan.",
+    "images": [
+      "https://picsum.photos/seed/coffee1/400/400",
+      "https://picsum.photos/seed/coffee2/400/400"
+    ],
+    "tags": ["kitchen", "coffee", "cold-brew"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 11,
+    "name": "Mechanical Pencil Set",
+    "slug": "mechanical-pencil-set",
+    "category": "Stationery",
+    "brand": "DrawPro",
+    "price": 95000,
+    "discount": 0,
+    "stock": 200,
+    "rating": 4.3,
+    "reviews": 57,
+    "description": "Set pensil mekanikal profesional isi 3 pcs ukuran 0.3mm, 0.5mm, dan 0.7mm dengan grip anti-slip dan refill lead.",
+    "images": [
+      "https://picsum.photos/seed/pencil1/400/400",
+      "https://picsum.photos/seed/pencil2/400/400"
+    ],
+    "tags": ["stationery", "drawing", "art"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 12,
+    "name": "Portable Solar Power Bank",
+    "slug": "portable-solar-power-bank",
+    "category": "Electronics",
+    "brand": "SolarCharge",
+    "price": 480000,
+    "discount": 12,
+    "stock": 26,
+    "rating": 4.2,
+    "reviews": 83,
+    "description": "Power bank 20.000mAh dengan panel surya, dual USB + USB-C output, LED flashlight, dan casing anti-air untuk aktivitas outdoor.",
+    "images": [
+      "https://picsum.photos/seed/powerbank1/400/400",
+      "https://picsum.photos/seed/powerbank2/400/400"
+    ],
+    "tags": ["electronics", "solar", "outdoor"],
+    "isNew": true,
+    "isFeatured": true
+  }
+]

@@ -1,0 +1,172 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--background);
+
+  padding: 20px;
+}
+
+.registerCard {
+  width: 100%;
+  max-width: 400px;
+
+  background: var(--surface);
+
+  padding: 32px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.title {
+  text-align: center;
+
+  margin-bottom: 24px;
+
+  font-size: 28px;
+  font-weight: 700;
+
+  color: var(--primary-dark);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputWrapper label {
+  font-size: 14px;
+  font-weight: 500;
+
+  color: var(--text-secondary);
+}
+
+.inputWrapper input {
+  width: 100%;
+
+  padding: 12px 14px;
+
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+
+  background: var(--surface);
+
+  outline: none;
+
+  font-size: 14px;
+
+  color: var(--text-secondary);
+
+  transition: 0.2s ease;
+}
+
+.inputWrapper input:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(134, 182, 246, 0.2);
+}
+
+.passwordWrapper {
+  position: relative;
+
+  width: 100%;
+}
+
+.passwordWrapper input {
+  width: 100%;
+
+  padding-right: 70px;
+}
+
+.showButton {
+  position: absolute;
+
+  right: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  color: var(--primary-dark);
+
+  transition: 0.2s ease;
+}
+
+.showButton:hover {
+  color: var(--primary);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.previewCard {
+  width: 100%;
+  max-width: 350px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+
+  padding: 24px;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.previewTitle {
+  font-size: 24px;
+  font-weight: 700;
+
+  color: var(--primary-dark);
+
+  margin-bottom: 24px;
+}
+
+.previewItem {
+  margin-bottom: 18px;
+}
+
+.previewItem span {
+  display: block;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  color: var(--text-muted);
+
+  margin-bottom: 6px;
+}
+
+.previewItem p {
+  font-size: 15px;
+
+  color: var(--text-primary);
+
+  word-break: break-word;
+}
